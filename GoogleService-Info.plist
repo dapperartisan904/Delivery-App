@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>725691497639-9b0ctbdl3avd7ph6489k6v46a49v70kq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.725691497639-9b0ctbdl3avd7ph6489k6v46a49v70kq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCej2vLb-XXyKoWeMzdAUynqZbq0YVmWi0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>725691497639</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fablian.grubhouse</string>
+	<key>PROJECT_ID</key>
+	<string>grubhouse-246413</string>
+	<key>STORAGE_BUCKET</key>
+	<string>grubhouse-246413.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:725691497639:ios:d35cea47417f4907</string>
+	<key>DATABASE_URL</key>
+	<string>https://grubhouse-246413.firebaseio.com</string>
+</dict>
+</plist>

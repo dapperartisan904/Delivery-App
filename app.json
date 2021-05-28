@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "GRUPHOUSE",
+    "slug": "GRUPHOUSE",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "grubhouse",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.fablian.grubhouse",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "App uses your location permission to search merchants nearby you",
+        "NSLocationWhenInUseUsageDescription": "App uses your location permission to search merchants nearby you",
+        "NSLocationAlwaysUsageDescription": "App uses your location permission to search merchants nearby you",
+        "NSPhotoLibraryUsageDescription": "App uses your library permission to get your picture for AVATAR",
+        "NSContactsUsageDescription": "App uses your contact permission to invite your friend to Group House",
+        "NSCameraUsageDescription": "App uses your camera permission to get your picture for AVATAR",
+        "CFBundleAllowMixedLocalizations": true,
+        "NSMicrophoneUsageDescription": "App uses your Microphone",
+        "UIBackgroundModes": [
+          "location"
+        ]
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyCej2vLb-XXyKoWeMzdAUynqZbq0YVmWi0"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.fablian.GRUPHOUSE",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCCynf5qQzLMr2CLR0sWWLgsq6vT8ad4M0"
+        }
+      },
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "MEDIA_LIBRARY",
+        "READ_EXTERNAL_STORAGE",
+        "ACCESS_COARSE_LOCATION",
+        "com.htc.launcher.permission.READ_SETTINGS",
+        "MANAGE_DOCUMENTS",
+        "com.sonyericsson.home.permission.BROADCAST_BADGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_CONTACTS",
+        "RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "middle"
+  }
+}
